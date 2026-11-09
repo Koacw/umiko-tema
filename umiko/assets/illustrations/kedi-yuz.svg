@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" class="ill">
+<style>.ill .k{fill:var(--u-ink,#15173D)}.ill .b{fill:var(--u-blue,#0051F8)}.ill .p{fill:var(--u-pink,#F498DB)}.ill .s{fill:var(--u-pink-soft,#FBC9EC)}.ill .c{fill:var(--u-cream,#FFF8F4)}.ill .n{fill:none}.ill .o{stroke:var(--u-ink,#15173D);stroke-width:6;stroke-linejoin:round;stroke-linecap:round}.ill .t{stroke-width:4}.ill .ln{fill:none;stroke:var(--u-ink,#15173D);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}</style>
+
+<path class="c o" d="M86 200 L70 70 L180 130 Z"/>
+<path class="c o" d="M314 200 L330 70 L220 130 Z"/>
+<path class="p" d="M94 170 L84 96 L152 134 Z M306 170 L316 96 L248 134 Z"/>
+<ellipse class="c o" cx="200" cy="250" rx="160" ry="136"/>
+<!-- kalp gözler -->
+<path class="p o" d="M140 230 c-14 -20 -40 -6 -26 14 l26 26 l26 -26 c14 -20 -12 -34 -26 -14 Z"/>
+<path class="p o" d="M260 230 c-14 -20 -40 -6 -26 14 l26 26 l26 -26 c14 -20 -12 -34 -26 -14 Z"/>
+<path class="k" d="M188 286 h24 l-12 12 Z"/>
+<path class="ln" d="M200 298 q-12 16 -28 8 M200 298 q12 16 28 8"/>
+<ellipse class="p" cx="110" cy="300" rx="20" ry="12"/>
+<ellipse class="p" cx="290" cy="300" rx="20" ry="12"/>
+<path class="ln" d="M80 280 H20 M84 302 L26 322 M320 280 H380 M316 302 L374 322" stroke-width="4"/>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" class="ill">
+<style>.ill .k{fill:var(--u-ink,#15173D)}.ill .b{fill:var(--u-blue,#0051F8)}.ill .p{fill:var(--u-pink,#F498DB)}.ill .s{fill:var(--u-pink-soft,#FBC9EC)}.ill .c{fill:var(--u-cream,#FFF8F4)}.ill .n{fill:none}.ill .o{stroke:var(--u-ink,#15173D);stroke-width:5;stroke-linejoin:round;stroke-linecap:round}.ill .t{stroke-width:3.5}.ill .ln{fill:none;stroke:var(--u-ink,#15173D);stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.ill .lb{fill:none;stroke:var(--u-blue,#0051F8);stroke-width:4;stroke-linecap:round}.ill text{font-family:"Baloo 2",ui-rounded,system-ui,sans-serif;font-weight:800}.ill .sfx{fill:var(--u-blue,#0051F8);stroke:var(--u-ink,#15173D);stroke-width:7;paint-order:stroke fill;stroke-linejoin:round}.ill .say{fill:var(--u-ink,#15173D)}</style>
+
+<!-- duvardaki çerçeve -->
+<rect class="c o" x="34" y="34" width="96" height="80" rx="10" transform="rotate(-4 82 74)"/>
+<g transform="translate(82 74) rotate(-4) scale(.34) translate(-50 -50)">
+	<g class="b"><circle cx="29" cy="29" r="29"/><circle cx="71" cy="29" r="29"/><circle cx="29" cy="71" r="29"/><circle cx="71" cy="71" r="29"/><circle cx="50" cy="50" r="30"/></g><circle class="p" cx="50" cy="50" r="15.3"/>
+</g>
+
+<!-- kumandalık (duvarda) -->
+<rect class="k o" x="282" y="96" width="20" height="62" rx="7"/>
+<rect class="k o" x="306" y="86" width="20" height="72" rx="7"/>
+<circle class="p" cx="292" cy="108" r="4"/><circle class="p" cx="316" cy="98" r="4"/>
+<path class="c o" d="M268 128 h72 v52 a12 12 0 0 1 -12 12 h-48 a12 12 0 0 1 -12 -12 Z"/>
+<path class="b o t" d="M268 148 h72 v32 a12 12 0 0 1 -12 12 h-48 a12 12 0 0 1 -12 -12 Z"/>
+<path class="ln" d="M282 166 h44" stroke="var(--u-cream,#FFF8F4)" stroke-width="3" opacity=".7"/>
+<!-- parıltı -->
+<path class="lb" d="M356 116 l14 -6 M358 138 h16 M352 96 l10 -12" stroke="var(--u-cream,#FFF8F4)" stroke-width="4"/>
+
+<!-- kanepe -->
+<rect class="b o" x="22" y="236" width="356" height="86" rx="34"/>
+<rect class="b o" x="6" y="270" width="48" height="98" rx="22"/>
+<rect class="b o" x="346" y="270" width="48" height="98" rx="22"/>
+<rect class="b o" x="44" y="300" width="312" height="62" rx="18"/>
+<path class="ln" d="M200 304 v52" stroke="var(--u-ink,#15173D)" opacity=".5"/>
+<path class="ln" d="M60 368 v22 M340 368 v22" stroke-width="7"/>
+
+<!-- kız: kanepede, kumandayı tutuyor -->
+<path class="s o" d="M84 302 C86 248 110 222 148 222 C186 222 206 248 208 302 Z"/>
+<path class="c o t" d="M136 196 h24 v28 c-8 6 -16 6 -24 0 Z"/>
+<circle class="c o" cx="148" cy="160" r="44"/>
+<!-- saç: dalgalı uzun -->
+<path class="p o" d="M100 176 C88 112 120 106 150 108 C182 108 202 124 196 176 C204 200 200 224 190 236 C186 214 186 196 184 180 C178 150 160 138 148 136 C130 138 114 152 112 182 C110 200 112 214 108 234 C96 222 92 198 100 176 Z"/>
+<path class="ln" d="M132 162 q7 -7 14 0" />
+<circle class="k" cx="164" cy="160" r="4.5"/>
+<path class="ln" d="M140 180 q10 6 18 -2"/>
+<ellipse class="p" cx="124" cy="176" rx="7" ry="4.5"/>
+<ellipse class="p" cx="174" cy="176" rx="7" ry="4.5"/>
+<!-- kalkık kol + kumanda -->
+<path d="M196 248 C222 232 236 214 244 190" fill="none" stroke="var(--u-ink,#15173D)" stroke-width="30" stroke-linecap="round"/>
+<path d="M196 248 C222 232 236 214 244 190" fill="none" stroke="var(--u-pink-soft,#FBC9EC)" stroke-width="20" stroke-linecap="round"/>
+<rect class="k o" x="236" y="140" width="18" height="44" rx="6" transform="rotate(14 245 162)"/>
+<circle class="c o" cx="244" cy="188" r="13"/>
+
+<!-- uyuyan kedi -->
+<path class="c o" d="M268 300 c0 -30 30 -44 58 -40 c26 4 36 24 30 40 Z"/>
+<path class="c o" d="M276 280 l-2 -22 l16 12 Z M300 268 l10 -16 l6 18 Z"/>
+<path class="ln" d="M282 286 q6 4 12 0 M300 284 q6 4 12 0" stroke-width="3.5"/>
+<path class="ln" d="M330 290 c16 -2 22 -14 14 -22" stroke-width="3.5"/>
+<text x="356" y="244" font-size="22" class="say">z</text>
+<text x="370" y="226" font-size="16" class="say">z</text>
+
+<!-- balon -->
+<path class="c o" d="M148 22 h94 a16 16 0 0 1 16 16 v34 a16 16 0 0 1 -16 16 h-26 l-16 24 l-4 -24 h-48 a16 16 0 0 1 -16 -16 v-34 a16 16 0 0 1 16 -16 Z"/>
+<text class="say" x="195" y="64" text-anchor="middle" font-size="24">burada!</text>
+
+<text class="sfx" x="338" y="62" font-size="40" transform="rotate(10 338 62)" text-anchor="middle">tık!</text>
+</svg>

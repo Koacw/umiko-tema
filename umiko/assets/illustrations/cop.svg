@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" class="ill">
+<style>.ill .k{fill:var(--u-ink,#15173D)}.ill .b{fill:var(--u-blue,#0051F8)}.ill .p{fill:var(--u-pink,#F498DB)}.ill .s{fill:var(--u-pink-soft,#FBC9EC)}.ill .c{fill:var(--u-cream,#FFF8F4)}.ill .n{fill:none}.ill .o{stroke:var(--u-ink,#15173D);stroke-width:5;stroke-linejoin:round;stroke-linecap:round}.ill .t{stroke-width:3.5}.ill .ln{fill:none;stroke:var(--u-ink,#15173D);stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.ill .lc{fill:none;stroke:var(--u-cream,#FFF8F4);stroke-width:4;stroke-linecap:round}.ill text{font-family:"Baloo 2",ui-rounded,system-ui,sans-serif;font-weight:800}.ill .sfx-c{fill:var(--u-cream,#FFF8F4);stroke:var(--u-ink,#15173D);stroke-width:7;paint-order:stroke fill;stroke-linejoin:round}.ill .say{fill:var(--u-ink,#15173D)}</style>
+
+<!-- duvar fayansları -->
+<path class="lc" d="M0 70 H400 M0 140 H400 M0 210 H400 M70 0 V250 M150 0 V250 M230 0 V250 M310 0 V250 M390 0 V250" opacity=".18"/>
+
+<!-- pencere -->
+<rect class="s o" x="250" y="28" width="120" height="96" rx="14"/>
+<path class="ln" d="M310 28 V124 M250 76 H370"/>
+<circle class="c" cx="282" cy="54" r="10"/>
+
+<!-- kız (tezgâhın arkasında) -->
+<path class="p o" d="M38 262 C40 206 68 178 112 178 C156 178 184 206 186 262 Z"/>
+<path class="c o t" d="M100 152 h26 v30 c-8 6 -18 6 -26 0 Z"/>
+<circle class="c o" cx="113" cy="112" r="48"/>
+<!-- saç: topuz -->
+<circle class="b o" cx="113" cy="52" r="20"/>
+<path class="b o" d="M64 118 C60 74 86 60 114 60 C144 60 166 76 162 120 C150 100 128 92 112 98 C96 92 76 100 64 118 Z"/>
+<path class="ln" d="M94 116 v6 M132 116 v6" stroke-width="5"/>
+<path class="ln" d="M104 136 q9 9 18 0"/>
+<ellipse class="p" cx="84" cy="132" rx="8" ry="5"/>
+<ellipse class="p" cx="142" cy="132" rx="8" ry="5"/>
+
+<!-- kol + patates + soyacak -->
+<path d="M160 214 C188 214 206 204 222 190" fill="none" stroke="var(--u-ink,#15173D)" stroke-width="32" stroke-linecap="round"/>
+<path d="M160 214 C188 214 206 204 222 190" fill="none" stroke="var(--u-pink,#F498DB)" stroke-width="22" stroke-linecap="round"/>
+<ellipse class="c o" cx="238" cy="172" rx="26" ry="20" transform="rotate(-18 238 172)"/>
+<path class="ln" d="M228 166 h.1 M244 160 h.1 M240 180 h.1" stroke-width="5"/>
+<circle class="c o" cx="222" cy="190" r="14"/>
+<!-- soyulan kabuk: kıvrılarak poşete düşer -->
+<path d="M258 184 C276 196 262 210 276 220 C292 232 274 244 290 256 C302 266 288 276 300 286" fill="none" stroke="var(--u-ink,#15173D)" stroke-width="12" stroke-linecap="round"/>
+<path d="M258 184 C276 196 262 210 276 220 C292 232 274 244 290 256 C302 266 288 276 300 286" fill="none" stroke="var(--u-cream,#FFF8F4)" stroke-width="5" stroke-linecap="round"/>
+
+<!-- tezgâh -->
+<path class="c o" d="M-10 250 H410 V276 H-10 Z"/>
+<path class="s o" d="M-10 276 H410 V410 H-10 Z"/>
+<path class="ln" d="M130 276 V410 M270 276 V410"/>
+<path class="ln" d="M52 320 h40 M188 320 h40" stroke-width="6"/>
+
+<!-- kesme tahtası -->
+<rect class="s o t" x="16" y="236" width="88" height="16" rx="6"/>
+
+<!-- katlanır aparat: tezgâh kenarına takılı kanca -->
+<path class="b o" d="M276 240 h52 v14 h-14 v30 c0 10 -24 10 -24 0 v-30 h-14 Z"/>
+<circle class="c o t" cx="302" cy="282" r="5"/>
+<!-- poşet -->
+<path class="c o" d="M296 280 C278 284 270 296 262 300 L272 392 H352 L362 300 C354 296 346 284 328 280"/>
+<path class="ln" d="M262 300 C290 314 334 314 362 300" stroke-width="3.5"/>
+<path class="ln" d="M296 300 C298 290 302 286 312 284 M328 300 C326 290 322 286 312 284" stroke-width="3.5"/>
+<path d="M286 330 c10 -8 20 6 30 -2 c10 -8 18 4 28 -2" fill="none" stroke="var(--u-ink,#15173D)" stroke-width="10" stroke-linecap="round"/>
+<path d="M286 330 c10 -8 20 6 30 -2 c10 -8 18 4 28 -2" fill="none" stroke="var(--u-cream,#FFF8F4)" stroke-width="4" stroke-linecap="round"/>
+<!-- katlanma oku -->
+<path class="lc" d="M346 236 c18 -2 26 14 18 28" stroke-width="4"/>
+<path class="lc" d="M356 260 l8 6 l4 -10" stroke-width="4"/>
+
+<!-- balon -->
+<path class="c o" d="M176 18 h104 a16 16 0 0 1 16 16 v34 a16 16 0 0 1 -16 16 h-58 l-28 22 l6 -22 h-24 a16 16 0 0 1 -16 -16 v-34 a16 16 0 0 1 16 -16 Z"/>
+<text class="say" x="228" y="60" text-anchor="middle" font-size="24">tek hamle!</text>
+
+<text class="sfx-c" x="208" y="372" font-size="48" transform="rotate(-8 208 372)" text-anchor="middle">hop!</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" class="ill">
+<style>.ill .k{fill:var(--u-ink,#15173D)}.ill .b{fill:var(--u-blue,#0051F8)}.ill .p{fill:var(--u-pink,#F498DB)}.ill .s{fill:var(--u-pink-soft,#FBC9EC)}.ill .c{fill:var(--u-cream,#FFF8F4)}.ill .n{fill:none}.ill .o{stroke:var(--u-ink,#15173D);stroke-width:5;stroke-linejoin:round;stroke-linecap:round}.ill .t{stroke-width:3.5}.ill .ln{fill:none;stroke:var(--u-ink,#15173D);stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.ill .lc{fill:none;stroke:var(--u-cream,#FFF8F4);stroke-width:4;stroke-linecap:round}.ill text{font-family:"Baloo 2",ui-rounded,system-ui,sans-serif;font-weight:800}.ill .sfx-c{fill:var(--u-cream,#FFF8F4);stroke:var(--u-ink,#15173D);stroke-width:7;paint-order:stroke fill;stroke-linejoin:round}.ill .say{fill:var(--u-ink,#15173D)}</style>
+
+<!-- kapı -->
+<path class="c o" d="M40 410 V58 a14 14 0 0 1 14 -14 h124 a14 14 0 0 1 14 14 V410"/>
+<rect class="s o t" x="62" y="70" width="108" height="120" rx="10"/>
+<rect class="s o t" x="62" y="214" width="108" height="150" rx="10"/>
+<circle class="b o" cx="170" cy="234" r="10"/>
+<!-- kapı tabelası -->
+<path class="ln" d="M90 96 l26 -30 l26 30" stroke-width="3.5"/>
+<rect class="p o" x="70" y="94" width="92" height="66" rx="12" transform="rotate(-5 116 127)"/>
+<g transform="rotate(-5 116 127)">
+	<path class="c o t" d="M96 142 c0 -14 10 -22 20 -22 s20 8 20 22 Z"/>
+	<path class="c o t" d="M100 126 l2 -12 l8 8 Z M132 126 l-2 -12 l-8 8 Z"/>
+	<circle class="k" cx="110" cy="132" r="2.5"/><circle class="k" cx="122" cy="132" r="2.5"/>
+	<text class="say" x="116" y="114" font-size="14" text-anchor="middle">miyav</text>
+</g>
+
+<!-- konsol rafı -->
+<path class="p o" d="M216 262 H404 V282 H216 Z"/>
+<path class="ln" d="M240 282 v36 M380 282 v36" stroke-width="7"/>
+
+<!-- çiçek anahtar tabağı + anahtarlar -->
+<g transform="translate(262 246) scale(.5 .2) translate(-50 -50)">
+	<g class="c o" stroke-width="12"><circle cx="29" cy="29" r="29"/><circle cx="71" cy="29" r="29"/><circle cx="29" cy="71" r="29"/><circle cx="71" cy="71" r="29"/></g><circle class="c" cx="50" cy="50" r="31"/>
+</g>
+<path class="c o" d="M234 246 c0 14 56 14 56 0" />
+<circle class="b o t" cx="252" cy="236" r="8"/>
+<path class="ln" d="M258 240 l16 6 l2 -4 M268 244 l2 -4" stroke-width="3.5"/>
+<circle class="k" cx="280" cy="236" r="6"/>
+
+<!-- saksı + etiketler -->
+<path class="s o" d="M316 262 l-8 -52 h76 l-8 52 Z"/>
+<path class="ln" d="M306 210 h80" stroke-width="6"/>
+<path class="b o" d="M346 206 c-30 -6 -40 -40 -26 -64 c18 10 30 34 26 64 Z"/>
+<path class="b o" d="M346 206 c26 -4 40 -34 30 -62 c-20 8 -34 32 -30 62 Z"/>
+<path class="b o" d="M346 206 c-4 -36 4 -70 6 -84 c10 20 6 56 -6 84 Z"/>
+<path class="ln" d="M330 214 l-6 -46" stroke-width="3"/>
+<rect class="c o t" x="312" y="158" width="26" height="16" rx="4" transform="rotate(-8 325 166)"/>
+
+<!-- duvardaki çerçeve -->
+<rect class="s o" x="250" y="56" width="110" height="84" rx="12" transform="rotate(3 305 98)"/>
+<path class="ln" d="M266 120 l26 -30 l20 20 l14 -14 l24 26" transform="rotate(3 305 98)"/>
+
+<text class="sfx-c" x="300" y="356" font-size="44" transform="rotate(-8 300 356)" text-anchor="middle">şıngır!</text>
+</svg>

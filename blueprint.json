@@ -1,0 +1,75 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "umiko canlı önizleme",
+		"author": "umiko",
+		"description": "WordPress + WooCommerce + umiko teması + örnek katalog. Tema GitHub deposundan kurulur; her açılışta sıfırdan, sadece deneme içindir."
+	},
+	"landingPage": "/",
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "latest"
+	},
+	"features": {
+		"networking": true
+	},
+	"login": true,
+	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "wordpress.org/plugins",
+				"slug": "woocommerce"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "setSiteLanguage",
+			"language": "tr_TR"
+		},
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "umiko",
+				"blogdescription": "gereksiz ama gerekli.",
+				"permalink_structure": "/%postname%/",
+				"timezone_string": "Europe/Istanbul",
+				"woocommerce_currency": "TRY",
+				"woocommerce_currency_pos": "left",
+				"woocommerce_price_thousand_sep": ".",
+				"woocommerce_price_decimal_sep": ",",
+				"woocommerce_price_num_decimals": "2",
+				"woocommerce_default_country": "TR:TR34",
+				"woocommerce_prices_include_tax": "yes",
+				"woocommerce_calc_taxes": "no",
+				"woocommerce_dimension_unit": "cm",
+				"woocommerce_coming_soon": "no",
+				"woocommerce_store_pages_only": "no",
+				"woocommerce_task_list_hidden": "yes",
+				"woocommerce_onboarding_profile": {
+					"skipped": true
+				}
+			}
+		},
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "git:directory",
+				"url": "https://github.com/Koacw/umiko-tema",
+				"ref": "main",
+				"refType": "branch",
+				"path": "umiko"
+			},
+			"options": {
+				"activate": true,
+				"targetFolderName": "umiko"
+			}
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require '/wordpress/wp-load.php'; foreach ( array( 'shop' => 'ürünler', 'cart' => 'sepet', 'checkout' => 'ödeme', 'myaccount' => 'hesabım' ) as $k => $t ) { $id = wc_get_page_id( $k ); if ( $id > 0 ) { wp_update_post( array( 'ID' => $id, 'post_title' => $t ) ); } } umiko_create_pages(); umiko_import_demo_products(); update_option( 'woocommerce_cod_settings', array( 'enabled' => 'yes', 'title' => 'Kapıda ödeme (demo)' ) ); flush_rewrite_rules();"
+		}
+	]
+}

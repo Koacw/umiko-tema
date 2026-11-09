@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" class="ill">
+<style>.ill .k{fill:var(--u-ink,#15173D)}.ill .b{fill:var(--u-blue,#0051F8)}.ill .p{fill:var(--u-pink,#F498DB)}.ill .s{fill:var(--u-pink-soft,#FBC9EC)}.ill .c{fill:var(--u-cream,#FFF8F4)}.ill .n{fill:none}.ill .o{stroke:var(--u-ink,#15173D);stroke-width:5;stroke-linejoin:round;stroke-linecap:round}.ill .t{stroke-width:3.5}.ill .ln{fill:none;stroke:var(--u-ink,#15173D);stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.ill .lb{fill:none;stroke:var(--u-blue,#0051F8);stroke-width:4;stroke-linecap:round}.ill text{font-family:"Baloo 2",ui-rounded,system-ui,sans-serif;font-weight:800}.ill .sfx{fill:var(--u-blue,#0051F8);stroke:var(--u-ink,#15173D);stroke-width:7;paint-order:stroke fill;stroke-linejoin:round}.ill .say{fill:var(--u-ink,#15173D)}</style>
+
+<!-- tezgâh -->
+<path class="s o" d="M-10 340 H410 V410 H-10 Z"/>
+
+<!-- 3D yazıcı gövdesi -->
+<rect class="k o" x="70" y="90" width="230" height="250" rx="18"/>
+<rect class="c o" x="88" y="108" width="194" height="186" rx="10"/>
+<!-- ekran (yüz) -->
+<rect class="b o t" x="96" y="302" width="76" height="30" rx="8"/>
+<circle class="c" cx="118" cy="315" r="4"/><circle class="c" cx="150" cy="315" r="4"/>
+<path class="lc" d="M126 322 q8 6 16 0" fill="none" stroke="var(--u-cream,#FFF8F4)" stroke-width="3" stroke-linecap="round"/>
+<circle class="p o t" cx="268" cy="317" r="8"/>
+
+<!-- portal + nozul -->
+<path class="ln" d="M88 150 H282" stroke-width="6"/>
+<path class="p o" d="M170 136 h40 v34 l-10 10 h-20 l-10 -10 Z"/>
+<path class="k" d="M186 180 h8 l-4 10 Z"/>
+<!-- tabla -->
+<rect class="b o t" x="110" y="272" width="150" height="14" rx="4"/>
+<!-- basılan çiçek: alt yarısı tamam -->
+<clipPath id="atolye-half"><rect x="100" y="214" width="180" height="60"/></clipPath>
+<g clip-path="url(#atolye-half)">
+	<g transform="translate(190 222) scale(1) translate(-50 -50)">
+		<g class="p o"><circle cx="29" cy="29" r="29"/><circle cx="71" cy="29" r="29"/><circle cx="29" cy="71" r="29"/><circle cx="71" cy="71" r="29"/></g><circle class="p" cx="50" cy="50" r="31"/><circle class="b o t" cx="50" cy="50" r="15.3"/>
+	</g>
+	<path class="ln" d="M110 228 H270 M110 238 H270 M110 248 H270 M110 258 H270" stroke-width="2" opacity=".35"/>
+</g>
+<path class="ln" d="M140 214 H240" stroke-dasharray="2 8" stroke-width="3"/>
+
+<!-- filament makarası -->
+<circle class="p o" cx="330" cy="140" r="38"/>
+<circle class="c o" cx="330" cy="140" r="12"/>
+<path class="ln" d="M318 176 C300 200 312 128 290 120" stroke-width="3"/>
+<path class="ln" d="M302 150 v190" stroke-width="5"/>
+
+<!-- balon -->
+<path class="c o" d="M150 14 h136 a14 14 0 0 1 14 14 v34 a14 14 0 0 1 -14 14 h-56 l-24 22 l2 -22 h-58 a14 14 0 0 1 -14 -14 v-34 a14 14 0 0 1 14 -14 Z"/>
+<text class="say" x="218" y="54" text-anchor="middle" font-size="22">katman katman…</text>
+
+<text class="sfx" x="60" y="58" font-size="44" transform="rotate(-10 60 58)" text-anchor="middle">vızz</text>
+<path class="lb" d="M224 166 l14 -4 M226 182 l16 2" stroke-width="3.5"/>
+</svg>

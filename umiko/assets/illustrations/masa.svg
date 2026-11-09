@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" class="ill">
+<style>.ill .k{fill:var(--u-ink,#15173D)}.ill .b{fill:var(--u-blue,#0051F8)}.ill .p{fill:var(--u-pink,#F498DB)}.ill .s{fill:var(--u-pink-soft,#FBC9EC)}.ill .c{fill:var(--u-cream,#FFF8F4)}.ill .n{fill:none}.ill .o{stroke:var(--u-ink,#15173D);stroke-width:5;stroke-linejoin:round;stroke-linecap:round}.ill .t{stroke-width:3.5}.ill .ln{fill:none;stroke:var(--u-ink,#15173D);stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.ill .lb{fill:none;stroke:var(--u-blue,#0051F8);stroke-width:4;stroke-linecap:round}.ill text{font-family:"Baloo 2",ui-rounded,system-ui,sans-serif;font-weight:800}.ill .sfx{fill:var(--u-blue,#0051F8);stroke:var(--u-ink,#15173D);stroke-width:7;paint-order:stroke fill;stroke-linejoin:round}.ill .say{fill:var(--u-ink,#15173D)}</style>
+
+<!-- dizüstü -->
+<path class="k o" d="M118 120 h150 a10 10 0 0 1 10 10 v104 h-170 v-104 a10 10 0 0 1 10 -10 Z"/>
+<rect class="b" x="122" y="128" width="148" height="100" rx="4"/>
+<g transform="translate(196 176) scale(.5) translate(-50 -50)">
+	<g class="s"><circle cx="29" cy="29" r="29"/><circle cx="71" cy="29" r="29"/><circle cx="29" cy="71" r="29"/><circle cx="71" cy="71" r="29"/><circle cx="50" cy="50" r="30"/></g><circle class="c" cx="50" cy="50" r="15.3"/>
+</g>
+<path class="c o" d="M92 234 h214 l-10 18 h-194 Z"/>
+
+<!-- kedi kulaklı kalemlik -->
+<path class="b o t" d="M38 150 l6 -70 l10 0 l-6 70 Z"/>
+<path class="k" d="M44 80 l5 -14 l5 14 Z"/>
+<path class="c o t" d="M58 150 l16 -64 l10 3 l-16 64 Z"/>
+<path class="k" d="M74 86 l9 -11 l1 14 Z"/>
+<path class="p o t" d="M70 150 l-4 -56 l10 -1 l4 56 Z"/>
+<path class="p o" d="M28 252 v-88 c0 -12 64 -12 64 0 v88 Z"/>
+<path class="p o" d="M30 160 l4 -24 l18 16 Z M90 160 l-4 -24 l-18 16 Z"/>
+<circle class="k" cx="48" cy="196" r="4.5"/><circle class="k" cx="72" cy="196" r="4.5"/>
+<path class="ln" d="M54 212 q6 5 12 0" stroke-width="3.5"/>
+
+<!-- masa -->
+<path class="s o" d="M-10 252 H410 V276 H-10 Z"/>
+<path class="b o" d="M-10 276 H410 V410 H-10 Z"/>
+<path class="ln" d="M40 300 h320" stroke="var(--u-cream,#FFF8F4)" opacity=".3"/>
+
+<!-- çiçek kablo klipsi + kablo -->
+<g transform="translate(-60 0)">
+<path class="ln" d="M300 252 C300 300 250 290 238 330 C230 360 260 380 250 410" stroke-width="7"/>
+<path d="M300 252 C300 300 250 290 238 330 C230 360 260 380 250 410" fill="none" stroke="var(--u-cream,#FFF8F4)" stroke-width="2.5"/>
+<g transform="translate(300 264) scale(.3) translate(-50 -50)">
+	<g class="p o" stroke-width="12"><circle cx="29" cy="29" r="29"/><circle cx="71" cy="29" r="29"/><circle cx="29" cy="71" r="29"/><circle cx="71" cy="71" r="29"/></g><circle class="p" cx="50" cy="50" r="30"/><circle class="c o" stroke-width="10" cx="50" cy="50" r="15.3"/>
+</g>
+</g>
+
+<!-- kulaklık askısı (masa kenarında) + kulaklık -->
+<g transform="translate(-34 0)">
+<path class="p o" d="M340 248 h40 v-6 h10 v52 h-10 v-24 h-14 v34 c0 14 -26 14 -26 0 Z"/>
+<path class="ln" d="M310 380 C300 320 320 286 353 286 C386 286 404 320 396 380" stroke-width="14"/>
+<path d="M310 380 C300 320 320 286 353 286 C386 286 404 320 396 380" fill="none" stroke="var(--u-pink-soft,#FBC9EC)" stroke-width="6" stroke-linecap="round"/>
+<rect class="c o" x="294" y="350" width="30" height="46" rx="12"/>
+<rect class="c o" x="382" y="350" width="30" height="46" rx="12"/>
+</g>
+
+<!-- balon -->
+<path class="c o" d="M224 20 h146 a14 14 0 0 1 14 14 v34 a14 14 0 0 1 -14 14 h-80 l-26 24 l4 -24 h-44 a14 14 0 0 1 -14 -14 v-34 a14 14 0 0 1 14 -14 Z"/>
+<text class="say" x="297" y="60" text-anchor="middle" font-size="22">her şey yerinde.</text>
+
+<text class="sfx" x="120" y="62" font-size="46" transform="rotate(-10 120 62)" text-anchor="middle">oh be!</text>
+</svg>
